@@ -3,7 +3,6 @@
     justify-content: center;
 }
 
-
 .banner > section {
     width: 100%;
     max-width: 1920px;
@@ -30,4 +29,35 @@
 
 .banner * {
     color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .banner > section {
+        width: 100%;
+        max-width: 1920px;
+        height: 70vh;
+        background-image: url("../assets/images/bg-banner.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: center;
+    }
+
+    .banner > section > article > h1,
+    .banner > section > article > h1 span {
+        font-size: 1.5rem !important;
+    }
+
+    .banner > section > article > p {
+        font-size: 1rem;
+    }
+
+    .banner > section > article {
+        margin-bottom: 100px;
+        padding: 0 20px;
+    }
 }

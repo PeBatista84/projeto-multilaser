@@ -1,3 +1,7 @@
+.semPerderAssunto > section {
+    padding: 0 20px;
+}
+
 .semPerderAssunto > section > article {
     display: flex;
     flex-direction: column;
@@ -32,4 +36,32 @@
 .semPerderAssunto > section > article > div:nth-child(3) > p {
     margin-bottom: 120px;
     max-width: 700px;
+}
+
+@media screen and (max-width:  500px) {
+    .semPerderAssunto > section > article > div:nth-child(3) > p {
+        margin-bottom: 120px;
+        max-width: 700px;
+    }
+
+    .semPerderAssunto > section > article > div:nth-child(3) {
+        margin-top: -300px;
+    }
+
+    .semPerderAssunto > section > article > div:nth-child(3) > img {
+        width: 125px
+    };
+
+    .semPerderAssunto > section > article > div:nth-child(1) > h2 {
+        font-size: 1rem !important;
+    }
+
+    .semPerderAssunto > section > article > div:nth-child(1) > p {
+        font-size: 1rem;
+        max-width: 400px;
+    }
+
+    .semPerderAssunto > section > article > div:nth-child(3) > p {
+        margin-bottom: 80px;
+    }
 }

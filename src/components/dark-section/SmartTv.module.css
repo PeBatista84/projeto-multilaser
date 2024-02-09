@@ -11,12 +11,33 @@
 
 .smartTv > section > article {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1230px;
     z-index: 2;
 }
 
 .smartTv > section > article > div > p {
     line-height: 38.4px;
+}
+
+@media sreen and (max-width: 500px) {
+    .smartTv > section > article > div > p {
+        padding: 0 50px;
+        font-size: .8rem;
+    }
+
+    .quadroFundo {
+        height: 700px;
+    }
+}
+
+.paddingX {
+
+    padding: 20px 40px !important;
+}
+
+.smartTv > section > article > div > img {
+    max-width: 100%;
 }
 
 @media screen and (min-width: 500px) {
@@ -28,7 +49,7 @@
 }
 
 .quadroFundo {
-    width: 1700px;
+    width: 90%;
     max-width: 1700px;
     height: 600px;
     background-color: #1c1c1c;

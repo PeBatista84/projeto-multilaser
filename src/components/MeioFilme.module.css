@@ -1,0 +1,19 @@
+.meioFilme > section > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap-reverse;
+}
+
+.meioFilme > section > article > div:nth-child(1) {
+    max-width: 500px;
+}
+
+.meioFilme > section > article > div:nth-child(1) > h2 {
+    margin-bottom: 30px;
+}
+
+.meioFilme > section > article > div:nth-child(1) > p {
+    max-width: 440px;
+}

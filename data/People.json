@@ -1,0 +1,44 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "César",
+            "date": "em 17/11/2022",
+            "img": "../src/assets/images/people/cesar.svg",
+            "title": "Ótimo custo-benefício",
+            "coment": "“Excelente custo-benefício. Imagem e som bons. Ótima conexão wi-fi e apps (Netflix, Prime Video e YouTube) funcionando perfeitamente. TV digital com boa recepção. E já vem com bluetooth para conectar com som. Navegação das funções boas. Entrega rápida.”"
+        },
+        {
+            "id": 2,
+            "name": "João",
+            "date": "em 10/09/2022",
+            "img": "../src/assets/images/people/joao.svg",
+            "title": "Smart TV linda, maravilhosa",
+            "coment": "“Imagem perfeita, tudo de bom, quem recebeu amou.”"
+        },
+        {
+            "id": 3,
+            "name": "Valderes",
+            "date": "em 04/06/2023",
+            "img": "../src/assets/images/people/valderes.svg",
+            "title": "Ótimo, valeu",
+            "coment": "“Descomplicado, satisfeito.”"
+        },
+        {
+            "id": 4,
+            "name": "Jonathan",
+            "date": "em 04/10/2022",
+            "img": "../src/assets/images/people/jonathan.svg",
+            "title": "Produto bom",
+            "coment": "“TV muito boa, já vem com chromecast integrado e a usabilidade do sistema é muito rápida e intuitiva.”"
+        },
+        {
+            "id": 5,
+            "name": "Eliana",
+            "date": "em 08/10/2022",
+            "img": "../src/assets/images/people/eliana.svg",
+            "title": "Amei e já comprei mais",
+            "coment": "“Perfeito do jeito que queria, chegou antes do prazo estão de parabéns.”"
+        }
+    ]
+}

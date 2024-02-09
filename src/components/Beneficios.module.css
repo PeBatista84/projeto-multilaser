@@ -1,0 +1,32 @@
+.beneficios {
+    margin-bottom: 60px;
+}
+
+.beneficios > section > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 60px;
+    text-align: center;
+}
+
+.beneficios > section > article > div {
+    width: 250px;
+    height: 142px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beneficios > section > article > div > p {
+    max-width: 130px;
+    text-align: center;
+}
+
+.beneficios > section > article > div:last-child > p {
+    max-width: 250px;
+}

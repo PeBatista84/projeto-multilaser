@@ -11,10 +11,15 @@
 
 .comandoVoz > section > article > div {
     max-width: 425px;
+
 }
 
 .comandoVoz > section > article > div h2 {
     max-width: 300px;
+}
+
+.comandoVoz > section > article > div > p {
+    max-width: 410px;
 }
 
 .comandoVoz > section > article > div:nth-child(1) {
@@ -22,6 +27,12 @@
     grid-template-areas: 'title title'
                          'text text'
                          'talk control';
+    row-gap: 20px;
+    height: fit-content;
+}
+
+.comandoVoz > section > article > div > h2 {
+    margin-bottom: 20px;
 }
 
 .comandoVoz > section > article > div:nth-child(1) > h2 {
@@ -33,10 +44,39 @@
 }
 
 .comandoVoz > section > article > div:nth-child(1) > img:first-child {
+    margin-left: 150px;
+}
+
+.comandoVoz > section > article > div:nth-child(1) > img:last-child {
+    margin-right: -70px;
+    z-index: 10;
+}
+
+.comandoVoz > section > article > div:nth-child(1) > img:nth-child(3) {
     grid-area: talk;
+    justify-self: flex-end;
     padding-top: 50px;
 }
 
 .comandoVoz > section > article > div:nth-child(1) > img:last-child {
     grid-area: control;
+}
+
+.comandoVoz > section > article > div:nth-child(2) > img {
+    margin-left: -160px;
+    margin-top: -40px;
+    max-width: 200%;
+}
+
+@media screen and (max-width: 500px) {
+    .comandoVoz > section > article > div:nth-child(2) > img {
+        margin-left: -0;
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.comandoVoz > section > article > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
 }
