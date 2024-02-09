@@ -1,0 +1,59 @@
+.telona {
+    margin: 60px 0;
+}
+
+.telona section > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.telona section > article > div:nth-child(1) {
+    max-width: 800px;
+}
+
+.telona section > article > div:nth-child(1) > h2,
+.telona section > article > div:nth-child(1) > p {
+    text-align: center;
+}
+
+.telona section > article > div:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.telona section > article > div:nth-child(3) > div:first-child h3 {
+    align-self: flex-end;
+}
+
+.telona section > article > div:nth-child(3) > div:first-child p {
+    align-self: flex-start;
+}
+
+.telona section > article > div:nth-child(3) > div {
+    display: grid;
+    grid-template-areas: 'image title'
+                         'image paragraph';
+    column-gap: 20px;
+    align-items: center;
+}
+
+.telona section > article > div:nth-child(3) > div > img {
+    grid-area: image;
+}
+
+.telona section > article > div:nth-child(3) > div > h3 {
+    grid-area: title;
+}
+
+.telona section > article > div:nth-child(3) > div > p {
+    grid-area: paragraph;
+}
+
+.telona section > article > div:nth-child(3) > div > h3,
+.telona section > article > div:nth-child(3) > div > p {
+    max-width: 400px;
+}

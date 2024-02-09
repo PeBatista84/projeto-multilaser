@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Elza-Regular";
+    src: url("./fonts/ElzaTextTrial-Regular.woff") format('woff');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Elza-Medium";
+    src: url("./fonts/ElzaTextTrial-Medium.woff") format('woff');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Elza-SemiBold";
+    src: url("./fonts/ElzaTextTrial-Semibold.woff") format('woff');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Elza-Bold";
+    src: url("./fonts/ElzaTextTrial-Bold.woff") format('woff');
+    font-weight: normal;
+	font-style: normal;
+}
+
+body * {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}

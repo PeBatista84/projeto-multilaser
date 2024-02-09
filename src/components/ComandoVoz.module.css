@@ -1,0 +1,42 @@
+.comandoVoz {
+    margin-top: 150px;
+}
+
+.comandoVoz > section > article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 100px;
+}
+
+.comandoVoz > section > article > div {
+    max-width: 425px;
+}
+
+.comandoVoz > section > article > div h2 {
+    max-width: 300px;
+}
+
+.comandoVoz > section > article > div:nth-child(1) {
+    display: grid;
+    grid-template-areas: 'title title'
+                         'text text'
+                         'talk control';
+}
+
+.comandoVoz > section > article > div:nth-child(1) > h2 {
+    grid-area: title;
+}
+
+.comandoVoz > section > article > div:nth-child(1) > p {
+    grid-area: text;
+}
+
+.comandoVoz > section > article > div:nth-child(1) > img:first-child {
+    grid-area: talk;
+    padding-top: 50px;
+}
+
+.comandoVoz > section > article > div:nth-child(1) > img:last-child {
+    grid-area: control;
+}

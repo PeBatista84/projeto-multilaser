@@ -1,0 +1,18 @@
+.toqueFino {
+    margin-bottom: -125px;
+}
+
+.toqueFino > section > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.toqueFino > section > article > div {
+    max-width: 450px;
+}
+
+.toqueFino > section > article > div > p {
+    max-width: 400px;
+}

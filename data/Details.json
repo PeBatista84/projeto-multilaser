@@ -1,0 +1,45 @@
+{
+    "details": [
+        {
+            "id": 1,
+            "title": "DLED 4K",
+            "img": "../src/assets/images/1.svg"
+        },
+        {
+            "id": 2,
+            "title": "Bluetooth 2.1",
+            "img": "../src/assets/images/3.svg"
+        },
+        {
+            "id": 3,
+            "title": "Wi-fi Dual Band",
+            "img": "../src/assets/images/5.svg"
+        },
+        {
+            "id": 4,
+            "title": "Chromecast integrado",
+            "img": "../src/assets/images/7.svg"
+        },
+        {
+            "id": 5,
+            "title": "Android 11",
+            "img": "../src/assets/images/2.svg"
+        },
+        {
+            "id": 6,
+            "title": "Dolby Audio",
+            "img": "../src/assets/images/4.svg"
+        },
+
+        {
+            "id": 7,
+            "title": "Comandos de voz",
+            "img": "../src/assets/images/6.svg"
+        },
+        {
+            "id": 8,
+            "title": "Design Borderless",
+            "img": "../src/assets/images/8.svg"
+        }
+    ]
+}
